@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700&family=Playfair+Display:wght@400;500;700&display=swap');
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link,
+.btn-primary {
+    background-color: #da1c5c !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.hero-section{
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #00000096 !important;
+    background-blend-mode: color;
+    img{
+    	filter: brightness(0) invert(1);
+    }
+}
+
+.single-post-page,
+.archive-section{
+	margin: 2rem 0;
+}
+
+.nav-link, 
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+.single-post-page{
+	.featured-image{
+		img{
+			width: 100%;
+		    object-fit: contain;
+		    height: auto;
+		    border-radius: 10px;
+		}
+	}
+}
+
+header.d-flex{
+		align-items: center;
+}
+
+.title-product{
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.section-title{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Playfair Display", serif;
+}
+
+.card {
+	.featured-image {
+		img{
+		    width: 100%;
+		    object-fit: cover;
+		    height: 300px;
+	    }
+	}
+	.card-body{
+		p{
+			margin-bottom: 5px;
+			-webkit-line-clamp: 3;
+		    -webkit-box-orient: vertical;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    display: -webkit-box;
+		}
+	}
+	.product-category{
+		font-size: 0.9rem;
+    	font-weight: 500;
+	}
+}
